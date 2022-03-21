@@ -5,6 +5,7 @@ public class Veiculo {
 	private int id;
 	private String placa;
 	private double autonomiaLitro;
+	private boolean disponibilidade; 
 	
 	public int getId() {
 		return id;
@@ -23,6 +24,12 @@ public class Veiculo {
 	}
 	public void setAutonomiaLitro(double autonomiaLitro) {
 		this.autonomiaLitro = autonomiaLitro;
+	}
+	public boolean isDisponibilidade() {
+		return disponibilidade;
+	}
+	public void setDisponibilidade(boolean disponibilidade) {
+		this.disponibilidade = disponibilidade;
 	}
 	
 
