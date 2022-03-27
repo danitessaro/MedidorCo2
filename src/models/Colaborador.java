@@ -6,7 +6,7 @@ public class Colaborador {
 	private String cpf;
 	private String nome;
 	private Boolean cnh;
-	private String endereço;
+	private String endereco;
 	
 	public Colaborador(String nome, String cpf) {
 		this.setNome(nome);
@@ -39,9 +39,13 @@ public class Colaborador {
 		this.cnh = cnh;
 	}
 	public String getEndereço() {
-		return endereço;
+		return endereco;
 	}
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
 	}
+	public String toString() {
+		return String.format("ID: %s - Nome: %s - CPF: %s - Endereço: %s", this.id, this.nome, this.cpf,this.endereco);
+	}
+
 }

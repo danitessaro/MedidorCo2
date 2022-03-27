@@ -31,6 +31,8 @@ public class Veiculo {
 	public void setDisponibilidade(boolean disponibilidade) {
 		this.disponibilidade = disponibilidade;
 	}
-	
+	public String toString() {
+		return String.format("ID: %s - Placa: %s - Autonomia por Litro: %s - Disponibilidade: %s", this.id, this.placa, this.autonomiaLitro,this.disponibilidade);
+	}
 
 }

@@ -16,7 +16,6 @@ public class Chamado {
 		}
 	}
 		
-
 	
 	public int getNumeroProtocolo() {
 		return numeroProtocolo;
@@ -46,19 +45,18 @@ public class Chamado {
 	public void calculaEmissaoCo2() {
 		double consumoGasolina = this.kmPercorrido * this.veiculo.getAutonomiaLitro();
 		this.setEmissaoCo2(consumoGasolina * 0.82 * 0.75 * 3.7); 
-		
 	}
-
-
 
 	public double getEmissaoCo2() {
 		return emissaoCo2;
 	}
 
-
-
 	public void setEmissaoCo2(double emissaoCo2) {
 		this.emissaoCo2 = emissaoCo2;
+	}
+	
+	public String toString() {
+		return String.format("Numero do Protocolo: %s - Endereço de atendimento: %s", this.numeroProtocolo, this.enderecoAtendimento);
 	}
 
 }
