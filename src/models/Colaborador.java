@@ -5,7 +5,7 @@ public class Colaborador {
 	private int id;
 	private String cpf;
 	private String nome;
-	private Boolean cnh;
+	private Boolean habilitado;
 	private String endereco;
 	
 	public Colaborador(String nome, String cpf) {
@@ -32,11 +32,11 @@ public class Colaborador {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public Boolean getCnh() {
-		return cnh;
+	public Boolean isHabilitado() {
+		return habilitado;
 	}
-	public void setCnh(Boolean cnh) {
-		this.cnh = cnh;
+	public void setHabilitado(Boolean habilitado) {
+		this.habilitado = habilitado;
 	}
 	public String getEndereço() {
 		return endereco;
