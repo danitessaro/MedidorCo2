@@ -7,6 +7,14 @@ public class Veiculo {
 	private double autonomiaLitro;
 	private boolean disponibilidade; 
 	
+	public Veiculo() {
+		
+	}
+	
+	public Veiculo(int id) {
+		this.id = id;
+	}
+	
 	public int getId() {
 		return id;
 	}

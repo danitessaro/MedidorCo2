@@ -8,6 +8,10 @@ public class Chamado {
 	private Veiculo veiculo;
 	private double emissaoCo2;
 	
+	public Chamado() {
+		
+	}
+	
 	public Chamado(double kmPercorrido, Veiculo veiculo) {
 		if (this.kmPercorrido > 0) {
 			this.kmPercorrido = kmPercorrido;

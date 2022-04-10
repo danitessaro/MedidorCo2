@@ -38,7 +38,7 @@ public class Colaborador {
 	public void setHabilitado(Boolean habilitado) {
 		this.habilitado = habilitado;
 	}
-	public String getEndereço() {
+	public String getEndereco() {
 		return endereco;
 	}
 	public void setEndereco(String endereco) {
