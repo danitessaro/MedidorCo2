@@ -30,8 +30,8 @@ public class Veiculo {
 	public double getAutonomiaLitro() {
 		return autonomiaLitro;
 	}
-	public void setAutonomiaLitro(double autonomiaLitro) {
-		this.autonomiaLitro = autonomiaLitro;
+	public void setAutonomiaLitro(double string) {
+		this.autonomiaLitro = string;
 	}
 	public boolean isDisponibilidade() {
 		return disponibilidade;

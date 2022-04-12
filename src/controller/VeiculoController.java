@@ -20,13 +20,13 @@ public class VeiculoController {
 		VeiculoDao.getInstance().atualizar(veiculo);
 	}
 	
-	public void excluir(Veiculo veiculo) throws Exception {
-		if (veiculo.getId() == 0) {
-			throw new Exception("Nenhum veículo selecionado");
-		}
-		VeiculoDao.getInstance().excluir(veiculo);
-	}
-	
+//	public void excluir(Veiculo veiculo) throws Exception {
+//		if (veiculo.getId() == 0) {
+//			throw new Exception("Nenhum veículo selecionado");
+//		}
+//		VeiculoDao.getInstance().excluir(veiculo);
+//	}
+//	
 	public List<Veiculo> listar(){
 		return VeiculoDao.getInstance().listar();
 	}
